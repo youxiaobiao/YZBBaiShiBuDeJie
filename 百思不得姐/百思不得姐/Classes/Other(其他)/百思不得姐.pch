@@ -1,0 +1,30 @@
+//
+//  百思不得姐.pch
+//  百思不得姐
+//
+//  Created by 尤佐标 on 16/3/13.
+//  Copyright © 2016年 尤佐标. All rights reserved.
+//
+
+#ifndef ______pch
+#define ______pch
+
+#import "UIView+YZBExtention.h"
+#import "UIBarButtonItem+YZBExtension.h"
+
+
+#ifdef DEBUG
+#define YZBLog(...) NSLog(__VA_ARGS__)
+#else
+#define YZBLog(...)
+#endif
+
+#define YZBLogFunc YZBLog(@"%s", __func__)
+
+#define YZBRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define YZBGlobalBg YZBRGBColor(223, 223, 223)
+
+
+
+#endif /* ______pch */

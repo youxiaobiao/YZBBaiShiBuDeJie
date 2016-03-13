@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  百思不得姐
 //
-//  Created by 尤佐标 on 16/3/13.
+//  Created by 尤佐标 on 16/3/12.
 //  Copyright © 2016年 尤佐标. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "YZBTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // 创建窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 设置TabBarController为Window的跟控制器
+    self.window.rootViewController = [[YZBTabBarController alloc] init];
+    
+    // 显示窗口
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
