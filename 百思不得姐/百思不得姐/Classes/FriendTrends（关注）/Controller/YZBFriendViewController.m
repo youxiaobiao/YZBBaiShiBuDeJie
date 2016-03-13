@@ -7,6 +7,7 @@
 //
 
 #import "YZBFriendViewController.h"
+#import "YZBRecommentViewController.h"
 
 @interface YZBFriendViewController ()
 
@@ -21,11 +22,15 @@
     
     // 设置背景颜色
     self.view.backgroundColor = YZBGlobalBg;
+    
+    
 }
 
 // 左边按钮的监听
 - (void)click
 {
+    
+    [self.navigationController pushViewController:[[YZBRecommentViewController alloc] init] animated:YES];
     
 }
 

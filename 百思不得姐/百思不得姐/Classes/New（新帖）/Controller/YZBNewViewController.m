@@ -29,7 +29,8 @@
 
 - (void)click
 {
-    YZBLogFunc;
+//    [self.navigationController pushViewController:[[UIViewController alloc] init] animated:YES];
+
 }
 
 

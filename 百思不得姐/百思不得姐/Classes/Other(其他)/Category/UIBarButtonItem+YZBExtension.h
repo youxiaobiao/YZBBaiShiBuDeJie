@@ -10,6 +10,6 @@
 
 @interface UIBarButtonItem (YZBExtension)
 
-// 设置导航栏左边的按钮
+// 设置导航栏左右的按钮
 + (UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(NSString *)image selectImage:(NSString *)selectImage;
 @end

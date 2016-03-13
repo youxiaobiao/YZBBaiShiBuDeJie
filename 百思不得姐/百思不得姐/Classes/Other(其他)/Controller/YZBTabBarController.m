@@ -12,6 +12,7 @@
 #import "YZBFriendViewController.h"
 #import "YZBMeViewController.h"
 #import "YZBTabBar.h"
+#import "YZBNavigationController.h"
 
 @interface YZBTabBarController ()
 
@@ -81,7 +82,7 @@
     vc.tabBarItem.title = title;
     
     // 用NavigationController包装子控制器
-    UINavigationController *naVc = [[UINavigationController alloc] initWithRootViewController:vc];
+    YZBNavigationController *naVc = [[YZBNavigationController alloc] initWithRootViewController:vc];
     
     [self addChildViewController:naVc];
 }

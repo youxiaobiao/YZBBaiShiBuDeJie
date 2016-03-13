@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9942516C1C955B370050C487 /* YZBRecommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9942516B1C955B370050C487 /* YZBRecommentViewController.m */; };
 		99EFE42B1C94FC410012C110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFE42A1C94FC410012C110 /* main.m */; };
 		99EFE4361C94FC410012C110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EFE4351C94FC410012C110 /* Assets.xcassets */; };
 		99EFE4441C94FC410012C110 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFE4431C94FC410012C110 /* _____UITests.m */; };
@@ -20,6 +21,8 @@
 		99EFE4A31C951FD70012C110 /* UIView+YZBExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFE4A21C951FD70012C110 /* UIView+YZBExtention.m */; };
 		99EFE4A71C953ACA0012C110 /* UIBarButtonItem+YZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFE4A61C953ACA0012C110 /* UIBarButtonItem+YZBExtension.m */; };
 		99EFE4AA1C953FA50012C110 /* YZBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFE4A91C953FA50012C110 /* YZBNavigationController.m */; };
+		99EFE4AC1C9550C10012C110 /* YZBFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99EFE4AB1C9550C10012C110 /* YZBFriendViewController.xib */; };
+		C3784479281EF7D3985A3240 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AC793648FB0E7C7A5E3FE6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9942516A1C955B370050C487 /* YZBRecommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBRecommentViewController.h; sourceTree = "<group>"; };
+		9942516B1C955B370050C487 /* YZBRecommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBRecommentViewController.m; sourceTree = "<group>"; };
 		99EFE4261C94FC410012C110 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EFE42A1C94FC410012C110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99EFE4351C94FC410012C110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +66,10 @@
 		99EFE4A61C953ACA0012C110 /* UIBarButtonItem+YZBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YZBExtension.m"; sourceTree = "<group>"; };
 		99EFE4A81C953FA50012C110 /* YZBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBNavigationController.h; sourceTree = "<group>"; };
 		99EFE4A91C953FA50012C110 /* YZBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBNavigationController.m; sourceTree = "<group>"; };
+		99EFE4AB1C9550C10012C110 /* YZBFriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZBFriendViewController.xib; sourceTree = "<group>"; };
+		D4AC793648FB0E7C7A5E3FE6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D803B44848DC3ADDE5D7E538 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F30BD87700EE3F0248312E3E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3784479281EF7D3985A3240 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		029622FB1B80A7DFB61D44E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F30BD87700EE3F0248312E3E /* Pods.debug.xcconfig */,
+				D803B44848DC3ADDE5D7E538 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		99EFE41D1C94FC410012C110 = {
 			isa = PBXGroup;
 			children = (
 				99EFE4281C94FC410012C110 /* 百思不得姐 */,
 				99EFE4421C94FC410012C110 /* 百思不得姐UITests */,
 				99EFE4271C94FC410012C110 /* Products */,
+				029622FB1B80A7DFB61D44E4 /* Pods */,
+				B41DF418B8FA1BA171BB1A0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +208,9 @@
 			children = (
 				99EFE4951C950B140012C110 /* YZBFriendViewController.h */,
 				99EFE4961C950B140012C110 /* YZBFriendViewController.m */,
+				99EFE4AB1C9550C10012C110 /* YZBFriendViewController.xib */,
+				9942516A1C955B370050C487 /* YZBRecommentViewController.h */,
+				9942516B1C955B370050C487 /* YZBRecommentViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -277,8 +301,8 @@
 				99EFE48C1C95037E0012C110 /* AppDelegate.h */,
 				99EFE48D1C95037E0012C110 /* AppDelegate.m */,
 				99EFE4A41C9520730012C110 /* 百思不得姐.pch */,
-				99EFE4851C9502DA0012C110 /* Category */,
 				99EFE4861C9502DA0012C110 /* Controller */,
+				99EFE4851C9502DA0012C110 /* Category */,
 				99EFE4891C9502DA0012C110 /* View */,
 			);
 			path = "Other(其他)";
@@ -315,6 +339,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B41DF418B8FA1BA171BB1A0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4AC793648FB0E7C7A5E3FE6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -322,9 +354,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99EFE4481C94FC410012C110 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
 			buildPhases = (
+				D8E9C2D4D4685AC926FB629F /* Check Pods Manifest.lock */,
 				99EFE4221C94FC410012C110 /* Sources */,
 				99EFE4231C94FC410012C110 /* Frameworks */,
 				99EFE4241C94FC410012C110 /* Resources */,
+				33AA391315B54B607A2FDED7 /* Embed Pods Frameworks */,
+				4050E19C4FE003087B4DBA3F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -396,6 +431,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99EFE4AC1C9550C10012C110 /* YZBFriendViewController.xib in Resources */,
 				99EFE4361C94FC410012C110 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +444,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33AA391315B54B607A2FDED7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4050E19C4FE003087B4DBA3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E9C2D4D4685AC926FB629F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		99EFE4221C94FC410012C110 /* Sources */ = {
@@ -423,6 +507,7 @@
 				99EFE4A71C953ACA0012C110 /* UIBarButtonItem+YZBExtension.m in Sources */,
 				99EFE4971C950B140012C110 /* YZBFriendViewController.m in Sources */,
 				99EFE4AA1C953FA50012C110 /* YZBNavigationController.m in Sources */,
+				9942516C1C955B370050C487 /* YZBRecommentViewController.m in Sources */,
 				99EFE4911C9504FC0012C110 /* YZBEssenceViewController.m in Sources */,
 				99EFE4A01C951AD50012C110 /* YZBTabBar.m in Sources */,
 			);
@@ -531,12 +616,13 @@
 		};
 		99EFE4491C94FC410012C110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30BD87700EE3F0248312E3E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other(其他)/百思不得姐.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yzb.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -546,12 +632,13 @@
 		};
 		99EFE44A1C94FC410012C110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D803B44848DC3ADDE5D7E538 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other(其他)/百思不得姐.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yzb.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -602,6 +689,7 @@
 				99EFE44A1C94FC410012C110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99EFE44B1C94FC410012C110 /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +698,7 @@
 				99EFE44D1C94FC410012C110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

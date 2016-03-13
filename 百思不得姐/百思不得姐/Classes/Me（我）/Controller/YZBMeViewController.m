@@ -17,13 +17,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"我的";
+    
     // 设置背景颜色
     self.view.backgroundColor = YZBGlobalBg;
+    
+    self.navigationItem.rightBarButtonItems = @[
+                                                [UIBarButtonItem itemWithTarget:self action:@selector(click) image:@"mine-setting-icon" selectImage:@"mine-setting-icon-click"],
+                    
+                                                [UIBarButtonItem itemWithTarget:self action:@selector(click) image:@"mine-moon-icon" selectImage:@"mine-moon-icon-click"]
+                                                
+                                                ];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+// click
+- (void)click
+{
+    YZBLogFunc;
+
 }
 
 #pragma mark - Table view data source
