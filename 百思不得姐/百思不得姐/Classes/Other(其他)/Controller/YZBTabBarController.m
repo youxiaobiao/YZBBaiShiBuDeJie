@@ -38,8 +38,6 @@
     
     selectAttrib[NSFontAttributeName] = attrib[NSFontAttributeName];
     
-    
-    
     [tabBarItem setTitleTextAttributes:attrib forState:UIControlStateNormal];
     
     [tabBarItem setTitleTextAttributes:selectAttrib forState:UIControlStateSelected];
