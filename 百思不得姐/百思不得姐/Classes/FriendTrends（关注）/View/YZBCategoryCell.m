@@ -15,6 +15,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *name;
 
 
+
+
 @end
 
 @implementation YZBCategoryCell
@@ -26,10 +28,10 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     
     [super setSelected:selected animated:animated];
-    
+        
     // 没有点击的cell，默认隐藏
     self.guideView.hidden = !selected;
-    
+        
     self.name.textColor = ( selected ? [UIColor redColor] : [UIColor blackColor]);
 
 }

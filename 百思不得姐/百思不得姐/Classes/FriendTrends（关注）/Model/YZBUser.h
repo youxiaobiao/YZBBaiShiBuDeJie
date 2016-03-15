@@ -17,6 +17,6 @@
 @property (nonatomic, copy) NSString *screen_name;
 
 // 粉丝
-@property (nonatomic, copy) NSString *fans_count;
+@property (nonatomic, assign) NSInteger fans_count;
 
 @end

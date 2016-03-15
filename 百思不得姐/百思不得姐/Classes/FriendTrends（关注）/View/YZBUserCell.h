@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YZBUser.h"
 
 @interface YZBUserCell : UITableViewCell
+
+// 用户数据模型
+@property (nonatomic, strong) YZBUser *user;
+
 
 @end

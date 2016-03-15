@@ -7,6 +7,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YZBRecommentViewController">
             <connections>
                 <outlet property="categoryTableView" destination="Cxa-k7-JhD" id="w4j-O7-e2O"/>
+                <outlet property="userTableView" destination="t4V-Vd-89D" id="2dC-at-RIB"/>
                 <outlet property="view" destination="iN0-l3-epB" id="RFm-b8-J4x"/>
             </connections>
         </placeholder>
@@ -15,24 +16,23 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="t4V-Vd-89D" userLabel="右边">
+                    <rect key="frame" x="70" y="0.0" width="305" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="cAn-9K-xUa"/>
+                    </connections>
+                </tableView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-k7-JhD" userLabel="左边">
-                    <rect key="frame" x="0.0" y="0.0" width="100" height="667"/>
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="667"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="100" id="zb3-H9-Qrk"/>
+                        <constraint firstAttribute="width" constant="70" id="zb3-H9-Qrk"/>
                     </constraints>
                     <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="6XO-CH-VPa"/>
                         <outlet property="delegate" destination="-1" id="eLS-0f-Hu4"/>
-                    </connections>
-                </tableView>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="t4V-Vd-89D" userLabel="右边">
-                    <rect key="frame" x="100" y="0.0" width="275" height="667"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="cAn-9K-xUa"/>
-                        <outlet property="delegate" destination="-1" id="GtE-fA-jaj"/>
                     </connections>
                 </tableView>
             </subviews>

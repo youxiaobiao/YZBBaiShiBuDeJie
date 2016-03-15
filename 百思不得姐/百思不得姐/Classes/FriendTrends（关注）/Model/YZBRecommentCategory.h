@@ -17,10 +17,15 @@
 @property (nonatomic,assign) NSInteger id;
 
 // 每个类目对于的用户数量
-@property (nonatomic, assign) NSInteger count;
+@property (nonatomic, copy) NSString *count;
 
 // 对应的用户数组
 @property (nonatomic, strong) NSMutableArray *users;
+
+// 当前显示的页面
+
+@property (nonatomic, assign) NSInteger currentPage;
+
 
 
 
