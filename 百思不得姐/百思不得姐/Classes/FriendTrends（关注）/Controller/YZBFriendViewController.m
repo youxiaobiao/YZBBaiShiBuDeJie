@@ -9,6 +9,8 @@
 #import "YZBFriendViewController.h"
 #import "YZBRecommentViewController.h"
 
+#import "YZBLoginAndRegisterViewController.h"
+
 @interface YZBFriendViewController ()
 
 @end
@@ -34,4 +36,37 @@
     
 }
 
+// 登陆和注册按钮点击
+
+- (IBAction)loginAndRegister {
+    
+    YZBLoginAndRegisterViewController *loginVc = [[YZBLoginAndRegisterViewController alloc] init];
+    
+    // modal
+    [self presentViewController:loginVc animated:YES completion:nil];
+    
+    
+}
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

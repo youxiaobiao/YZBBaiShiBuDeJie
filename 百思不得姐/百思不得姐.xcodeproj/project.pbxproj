@@ -11,11 +11,19 @@
 		99670A5B1C96DEAF00272DF7 /* YZBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99670A5A1C96DEAF00272DF7 /* YZBUser.m */; };
 		99670A5F1C96E0E100272DF7 /* YZBUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99670A5D1C96E0E100272DF7 /* YZBUserCell.m */; };
 		99670A601C96E0E100272DF7 /* YZBUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99670A5E1C96E0E100272DF7 /* YZBUserCell.xib */; };
+		996D9B651C97B5AD00914D08 /* YZBTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D9B641C97B5AD00914D08 /* YZBTagViewController.m */; };
+		996D9B681C97B5D000914D08 /* YZBTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D9B671C97B5D000914D08 /* YZBTag.m */; };
+		996D9B6C1C97C2F500914D08 /* YZBTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D9B6A1C97C2F500914D08 /* YZBTagCell.m */; };
+		996D9B6D1C97C2F500914D08 /* YZBTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996D9B6B1C97C2F500914D08 /* YZBTagCell.xib */; };
 		997330B71C957085004DF3DD /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 997330B61C957085004DF3DD /* Foundation+Log.m */; };
 		997A80341C96A63B00B047A1 /* YZBRecommentCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 997A80331C96A63B00B047A1 /* YZBRecommentCategory.m */; };
 		997A80361C96A6C600B047A1 /* YZBRecommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 997A80351C96A6C600B047A1 /* YZBRecommentViewController.xib */; };
 		997A803A1C96A9E000B047A1 /* YZBCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 997A80381C96A9E000B047A1 /* YZBCategoryCell.m */; };
 		997A803B1C96A9E000B047A1 /* YZBCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 997A80391C96A9E000B047A1 /* YZBCategoryCell.xib */; };
+		999F8D411C994240006EAE7D /* YZBLoginAndRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 999F8D3F1C994240006EAE7D /* YZBLoginAndRegisterViewController.m */; };
+		999F8D421C994240006EAE7D /* YZBLoginAndRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999F8D401C994240006EAE7D /* YZBLoginAndRegisterViewController.xib */; };
+		999F8D451C994892006EAE7D /* YZBVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 999F8D441C994892006EAE7D /* YZBVerticalButton.m */; };
+		99EC67191C996F37001FFBAB /* YZBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EC67181C996F37001FFBAB /* YZBTextField.m */; };
 		99EFE42B1C94FC410012C110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFE42A1C94FC410012C110 /* main.m */; };
 		99EFE4361C94FC410012C110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EFE4351C94FC410012C110 /* Assets.xcassets */; };
 		99EFE4441C94FC410012C110 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFE4431C94FC410012C110 /* _____UITests.m */; };
@@ -51,6 +59,13 @@
 		99670A5C1C96E0E100272DF7 /* YZBUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBUserCell.h; sourceTree = "<group>"; };
 		99670A5D1C96E0E100272DF7 /* YZBUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBUserCell.m; sourceTree = "<group>"; };
 		99670A5E1C96E0E100272DF7 /* YZBUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZBUserCell.xib; sourceTree = "<group>"; };
+		996D9B631C97B5AD00914D08 /* YZBTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBTagViewController.h; sourceTree = "<group>"; };
+		996D9B641C97B5AD00914D08 /* YZBTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBTagViewController.m; sourceTree = "<group>"; };
+		996D9B661C97B5D000914D08 /* YZBTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBTag.h; sourceTree = "<group>"; };
+		996D9B671C97B5D000914D08 /* YZBTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBTag.m; sourceTree = "<group>"; };
+		996D9B691C97C2F500914D08 /* YZBTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBTagCell.h; sourceTree = "<group>"; };
+		996D9B6A1C97C2F500914D08 /* YZBTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBTagCell.m; sourceTree = "<group>"; };
+		996D9B6B1C97C2F500914D08 /* YZBTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZBTagCell.xib; sourceTree = "<group>"; };
 		997330B61C957085004DF3DD /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		997A80321C96A63B00B047A1 /* YZBRecommentCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBRecommentCategory.h; sourceTree = "<group>"; };
 		997A80331C96A63B00B047A1 /* YZBRecommentCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBRecommentCategory.m; sourceTree = "<group>"; };
@@ -58,6 +73,13 @@
 		997A80371C96A9E000B047A1 /* YZBCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBCategoryCell.h; sourceTree = "<group>"; };
 		997A80381C96A9E000B047A1 /* YZBCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBCategoryCell.m; sourceTree = "<group>"; };
 		997A80391C96A9E000B047A1 /* YZBCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZBCategoryCell.xib; sourceTree = "<group>"; };
+		999F8D3E1C994240006EAE7D /* YZBLoginAndRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBLoginAndRegisterViewController.h; sourceTree = "<group>"; };
+		999F8D3F1C994240006EAE7D /* YZBLoginAndRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBLoginAndRegisterViewController.m; sourceTree = "<group>"; };
+		999F8D401C994240006EAE7D /* YZBLoginAndRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZBLoginAndRegisterViewController.xib; sourceTree = "<group>"; };
+		999F8D431C994892006EAE7D /* YZBVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBVerticalButton.h; sourceTree = "<group>"; };
+		999F8D441C994892006EAE7D /* YZBVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBVerticalButton.m; sourceTree = "<group>"; };
+		99EC67171C996F37001FFBAB /* YZBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBTextField.h; sourceTree = "<group>"; };
+		99EC67181C996F37001FFBAB /* YZBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBTextField.m; sourceTree = "<group>"; };
 		99EFE4261C94FC410012C110 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EFE42A1C94FC410012C110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99EFE4351C94FC410012C110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -195,6 +217,8 @@
 			children = (
 				99EFE48F1C9504FC0012C110 /* YZBEssenceViewController.h */,
 				99EFE4901C9504FC0012C110 /* YZBEssenceViewController.m */,
+				996D9B631C97B5AD00914D08 /* YZBTagViewController.h */,
+				996D9B641C97B5AD00914D08 /* YZBTagViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -202,6 +226,8 @@
 		99EFE4741C9502DA0012C110 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				996D9B661C97B5D000914D08 /* YZBTag.h */,
+				996D9B671C97B5D000914D08 /* YZBTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -209,6 +235,9 @@
 		99EFE4751C9502DA0012C110 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				996D9B691C97C2F500914D08 /* YZBTagCell.h */,
+				996D9B6A1C97C2F500914D08 /* YZBTagCell.m */,
+				996D9B6B1C97C2F500914D08 /* YZBTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,12 +255,15 @@
 		99EFE4771C9502DA0012C110 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				99EFE4AB1C9550C10012C110 /* YZBFriendViewController.xib */,
 				99EFE4951C950B140012C110 /* YZBFriendViewController.h */,
 				99EFE4961C950B140012C110 /* YZBFriendViewController.m */,
-				99EFE4AB1C9550C10012C110 /* YZBFriendViewController.xib */,
 				9942516A1C955B370050C487 /* YZBRecommentViewController.h */,
 				9942516B1C955B370050C487 /* YZBRecommentViewController.m */,
 				997A80351C96A6C600B047A1 /* YZBRecommentViewController.xib */,
+				999F8D3E1C994240006EAE7D /* YZBLoginAndRegisterViewController.h */,
+				999F8D3F1C994240006EAE7D /* YZBLoginAndRegisterViewController.m */,
+				999F8D401C994240006EAE7D /* YZBLoginAndRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -256,6 +288,10 @@
 				99670A5C1C96E0E100272DF7 /* YZBUserCell.h */,
 				99670A5D1C96E0E100272DF7 /* YZBUserCell.m */,
 				99670A5E1C96E0E100272DF7 /* YZBUserCell.xib */,
+				999F8D431C994892006EAE7D /* YZBVerticalButton.h */,
+				999F8D441C994892006EAE7D /* YZBVerticalButton.m */,
+				99EC67171C996F37001FFBAB /* YZBTextField.h */,
+				99EC67181C996F37001FFBAB /* YZBTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -464,7 +500,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99670A601C96E0E100272DF7 /* YZBUserCell.xib in Resources */,
+				999F8D421C994240006EAE7D /* YZBLoginAndRegisterViewController.xib in Resources */,
 				99EFE4AC1C9550C10012C110 /* YZBFriendViewController.xib in Resources */,
+				996D9B6D1C97C2F500914D08 /* YZBTagCell.xib in Resources */,
 				997A80361C96A6C600B047A1 /* YZBRecommentViewController.xib in Resources */,
 				99EFE4361C94FC410012C110 /* Assets.xcassets in Resources */,
 				997A803B1C96A9E000B047A1 /* YZBCategoryCell.xib in Resources */,
@@ -537,19 +575,25 @@
 				99EFE48B1C9502DA0012C110 /* YZBTabBarController.m in Sources */,
 				99EFE49D1C950B7B0012C110 /* YZBMeViewController.m in Sources */,
 				99EFE42B1C94FC410012C110 /* main.m in Sources */,
+				999F8D411C994240006EAE7D /* YZBLoginAndRegisterViewController.m in Sources */,
 				99EFE48E1C95037E0012C110 /* AppDelegate.m in Sources */,
+				996D9B681C97B5D000914D08 /* YZBTag.m in Sources */,
 				99EFE4941C950ACE0012C110 /* YZBNewViewController.m in Sources */,
 				99EFE4A71C953ACA0012C110 /* UIBarButtonItem+YZBExtension.m in Sources */,
 				99EFE4971C950B140012C110 /* YZBFriendViewController.m in Sources */,
 				99670A5B1C96DEAF00272DF7 /* YZBUser.m in Sources */,
 				997A803A1C96A9E000B047A1 /* YZBCategoryCell.m in Sources */,
+				99EC67191C996F37001FFBAB /* YZBTextField.m in Sources */,
 				997A80341C96A63B00B047A1 /* YZBRecommentCategory.m in Sources */,
+				996D9B6C1C97C2F500914D08 /* YZBTagCell.m in Sources */,
 				99670A5F1C96E0E100272DF7 /* YZBUserCell.m in Sources */,
+				999F8D451C994892006EAE7D /* YZBVerticalButton.m in Sources */,
 				99EFE4AA1C953FA50012C110 /* YZBNavigationController.m in Sources */,
 				9942516C1C955B370050C487 /* YZBRecommentViewController.m in Sources */,
 				997330B71C957085004DF3DD /* Foundation+Log.m in Sources */,
 				99EFE4911C9504FC0012C110 /* YZBEssenceViewController.m in Sources */,
 				99EFE4A01C951AD50012C110 /* YZBTabBar.m in Sources */,
+				996D9B651C97B5AD00914D08 /* YZBTagViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

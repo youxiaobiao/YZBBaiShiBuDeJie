@@ -7,6 +7,8 @@
 //
 
 #import "YZBEssenceViewController.h"
+#import "YZBTagViewController.h"
+
 
 @interface YZBEssenceViewController ()
 
@@ -29,12 +31,13 @@
 
     
     
-    
 }
 
 - (void)click
 {
-    YZBLogFunc;
+    YZBTagViewController *tag = [[YZBTagViewController alloc] init];
+    
+    [self.navigationController pushViewController:tag animated:YES];
 }
 
 
