@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "YZBTabBarController.h"
+#import "YZBGuideView.h"
 
 @interface AppDelegate ()
 
@@ -26,6 +27,8 @@
     
     // 显示窗口
     [self.window makeKeyAndVisible];
+    
+    [YZBGuideView show];
     
     return YES;
 }
