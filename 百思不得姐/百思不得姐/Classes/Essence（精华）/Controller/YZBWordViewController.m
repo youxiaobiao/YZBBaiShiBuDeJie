@@ -11,6 +11,7 @@
 #import <AFNetworking.h>
 #import <MJExtension.h>
 #import "YZBTopic.h"
+#import "YZBTopicCell.h"
 
 @interface YZBWordViewController ()
 
@@ -29,6 +30,8 @@
 
 
 @end
+
+static NSString * const ID = @"cell";
 
 @implementation YZBWordViewController
 
@@ -53,6 +56,8 @@
 /** 初始化TableView的inset */
 - (void)setUpTableView
 {
+    // 注册
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([YZBTopicCell class]) bundle:nil] forCellReuseIdentifier:ID];
     
     CGFloat top = YZBTitleViewH + YZBTitleVieY ;
     
@@ -192,13 +197,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *ID = @"cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
-    }
+    YZBTopicCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     
     // 取出模型
     YZBTopic *topic = self.topics[indexPath.row];
